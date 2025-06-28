@@ -1,0 +1,25 @@
+{
+  "name": "lunalock-emergency-sms",
+  "version": "1.0.0",
+  "description": "Emergency SMS server for LunaLock safety device using Twilio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "twilio": "^5.7.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "keywords": ["emergency", "sms", "twilio", "safety", "lunalock"],
+  "author": "Sahab Solutions",
+  "license": "MIT"
+}
